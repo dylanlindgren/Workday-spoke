@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation>Get information on an employee's employment status by supplying the employee ID.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get information on an employee's employment status by supplying the employee ID.</description>
+        <ih_action>false</ih_action>
+        <internal_name>get_employee_employment_info</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>98a9a4281bbc1810fe5476e48d4bcbd8</latest_snapshot>
+        <master_snapshot>98a9a4281bbc1810fe5476e48d4bcbdb</master_snapshot>
+        <name>Get Employee Employment Info</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-12 06:15:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>329960281bbc1810fe5476e48d4bcb08</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get Employee Employment Info</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Workday Spoke" source="x_snc_wds">cf4b54601bbc1810fe5476e48d4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workday Spoke">cf4b54601bbc1810fe5476e48d4bcbb6</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_329960281bbc1810fe5476e48d4bcb08</sys_update_name>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-12 06:15:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=329960281bbc1810fe5476e48d4bcb08"/>
+    <sys_variable_value action="delete_multiple" query="document_key=329960281bbc1810fe5476e48d4bcb08"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=329960281bbc1810fe5476e48d4bcb08^sys_idNOT INdca9a4281bbc1810fe5476e48d4bcbe7"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Employee Employment Info">329960281bbc1810fe5476e48d4bcb08</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"dca9a4281bbc1810fe5476e48d4bcbe7","name":"plan"}}</plan>
+        <snapshot>98a9a4281bbc1810fe5476e48d4bcbd8</snapshot>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-12 06:15:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dca9a4281bbc1810fe5476e48d4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-12 06:15:33</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation>Get information on an employee's employment status by supplying the employee ID.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get information on an employee's employment status by supplying the employee ID.</description>
+        <internal_name>get_employee_employment_info</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Get Employee Employment Info</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Get Employee Employment Info">329960281bbc1810fe5476e48d4bcb08</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-12 06:15:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98a9a4281bbc1810fe5476e48d4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Workday Spoke">cf4b54601bbc1810fe5476e48d4bcbb6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-12 06:15:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=98a9a4281bbc1810fe5476e48d4bcbdb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=98a9a4281bbc1810fe5476e48d4bcbdb"/>
+</record_update>
